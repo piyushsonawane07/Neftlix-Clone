@@ -1,0 +1,29 @@
+.email{
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 10px;
+  }
+  .email input{
+    height: 65px;
+    width: 560px;
+    padding: 25px;
+    font-size: 20px;
+    outline: none;
+  }
+  
+   .btn-getStarted{
+    border-radius: 0;
+    line-height: 0;
+    background-color: #E50914;
+    font-size: 1.8rem;
+    padding: 18px;
+   }
+
+   .email-validation{
+     color: #FFA00A;
+     margin-left: 375px;
+   }
+
+   .validate{
+     display: none;
+   }

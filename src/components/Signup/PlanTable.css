@@ -1,0 +1,79 @@
+.plantableitems {
+    justify-content: space-between;
+    gap: 25px
+  }
+  .bigger {
+    max-width: 978px;
+    padding: 20px 32px 60px;
+  }
+.plantable {
+    width: 100%
+  }
+  .tableitem {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 15px;
+    color: #737373
+  }
+  .tableitem > span {
+    color: #000
+  }
+  .tableoptions  {
+    display: flex;
+    min-width: 60%;
+    justify-content: space-around
+  }
+  .tableoptions span {
+    padding: 10px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  .plantablebox  {
+    display: flex;
+    gap: 20px;
+    min-width: 60%;
+    margin-left: auto;
+    justify-content: space-around
+  }
+  .plantable {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+  }
+  .plantablebox  .box {
+    min-width: 120px;
+    max-width: 120px;
+    height: 120px;
+    display: flex;
+    background-color: #e50914;
+    opacity: 0.6;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: #fff;
+    transition: all 0.3s;
+    cursor: pointer
+  }
+  .plantablebox .activebox {
+    opacity: 1;
+  }
+ 
+  .activebox::after {
+    opacity: 1;
+  }
+  .activeitem {
+    color: var(--red)
+  }
+
+
+  .note-text{
+      font-size: 14px;
+      color: #737373;
+  }
+  
+  .btn-next{
+      border-radius: 0px;
+  }

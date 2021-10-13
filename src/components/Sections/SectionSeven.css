@@ -1,0 +1,39 @@
+
+.seven-section{
+  background-color: #000;
+  border-top: 10px solid #222222;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+
+.container {
+  margin-left: 22%;
+}
+
+.container h4, p {
+  overflow-y: hidden;
+  color: #6A686A;
+}
+
+.nav-item a {
+  color: #6A686A;
+  font-size: 14px;
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: #767676 !important;
+}
+
+.btnlang {
+  background: transparent;
+}
+
+.btnlang option {
+  background-color: #000;
+  color: #d6d4d6;
+}
+
+.btnlang:hover {
+  background: transparent;
+}

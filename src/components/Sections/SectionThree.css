@@ -1,0 +1,35 @@
+.third-section{
+  background-color: #000;
+  border-top: 10px solid #222222;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  text-align: left;
+}
+
+.head-tag3 {
+  color: #fff;
+  font-family: 'Heebo', sans-serif;
+  font-size: 3.4rem;
+  font-weight: 800;
+  overflow-y: hidden;
+  margin-top: 110px;
+  margin-right: 20px;
+}
+
+.p-tag3 {
+  color: #fff;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.9rem;
+  font-weight: 400;
+  margin-right: 20px;
+}
+
+.feature__image__container {
+  width: 100%;
+  position: relative;
+}
+
+.feature__3__image {
+  width: 75%;
+  margin-left: 25px;
+}

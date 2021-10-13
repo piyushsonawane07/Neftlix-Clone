@@ -1,0 +1,36 @@
+.slideTwo{
+    margin: 0 auto;
+    width: 520px;
+    margin-top: 80px;
+    height: 490px;
+}
+
+.inputs {
+    color: #333333;
+    border: 2px solid #c9c9c9;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 10px auto;
+    width: 85%;
+    background-color: #ffffff;
+}
+
+.inputs input{
+    color: #333333;
+    border: 2px solid #ffffff;
+    background-color: #fff;
+    width: 85%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.password-validation{
+    color: #d30000;
+    margin-left: 45px;
+  }
+
+.validate{
+    display: none;
+  }

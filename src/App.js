@@ -1,24 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
+import Landing from './components/Landing/Landing';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Signin from './components/Siginin/Signin';
+import SlideOne from './components/Signup/SlideOne';
+import SlideTwo from './components/Signup/SlideTwo';
+import SlideThree from './components/Signup/SlideThree';
+import SlideFour from './components/Signup/SlideFour';
+import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Landing />
+        </Route>
+        <Route exact path="/signin">
+          <Signin/>
+        </Route>
+        <Route exact path="/signup">
+          <SlideOne/>
+        </Route>
+        <Route exact path="/slidetwo">
+          <SlideTwo/>
+        </Route>
+        <Route exact path="/slidethree">
+          <SlideThree/>
+        </Route>
+        <Route exact path="/slidefour">
+          <SlideFour/>
+        </Route>
+        <Route exact path="/home">
+          <Home/>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

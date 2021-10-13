@@ -1,0 +1,10 @@
+.logo {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 174px;
+    height: 46px;
+}
+
+.btn-sin:hover{
+    text-decoration: underline;
+}

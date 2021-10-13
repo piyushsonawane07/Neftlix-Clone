@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;800&display=swap');
+
+*{
+  font-family: 'Heebo', sans-serif;
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+
+.logo{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 174px;
+    height: 46px;
+}
+
+.head-tag{
+  color: #fff;
+  font-family: 'Heebo', sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  overflow-y: hidden;
+}
+
+.p-tag{
+  color: #fff;
+  font-family: 'Heebo', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.texts{
+  margin-top: 100px;
+}
+
+.btn-signin{
+  background-color: #E50914;
+  margin-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 20px;
+}
+
+.btnddropdown{
+  margin-left: 420px;
+  margin-right: 20px;
+  background: transparent;
+}
+
+.btnddropdown:hover{
+  background: transparent;
+}
+
+
+.btnddropdown option{
+  background-color: #000;
+  color: #d6d4d6;
+}
+
+
+.p2{
+  font-size: 1.2rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.first-section{
+  padding-bottom: 200px;
+}
+
+select{
+  color: #fff;
+  background: transparent;
+  border: none;
+} 

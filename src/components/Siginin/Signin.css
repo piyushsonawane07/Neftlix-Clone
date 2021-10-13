@@ -1,0 +1,74 @@
+.signin__window {
+    padding: 25px;
+}
+
+.signin__background {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)), url('https://i.imgur.com/EnygUsO.jpeg');
+}
+
+.signin__window {
+    max-width: 450px;
+    min-height: 660px;
+    margin: 30px auto;
+    padding: 60px 68px 40px;
+    flex-direction: column;
+    background-color: #000000b0;
+}
+
+.form__text {
+    font-size: 14px;
+    color: #B3B3B3;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+
+.form-check-input {
+    width: 0.8em;
+    height: 0.8em;
+    margin-top: .25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0, 0, 0, .25);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+
+.fbic {
+    background-color: #fff;
+}
+
+h6 {
+    overflow-y: hidden;
+}
+
+.footer {
+    margin-top: 100px;
+    height: 300px;
+    background-color: #000000b0;
+}
+
+.a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.cursorhelp:hover {
+    cursor: pointer;
+    color: #B3B3B3;
+    text-decoration: underline;
+}

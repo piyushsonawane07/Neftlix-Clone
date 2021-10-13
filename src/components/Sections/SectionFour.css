@@ -1,0 +1,63 @@
+.fourth-section{
+  position: relative;
+  background-color: #000;
+  border-top: 10px solid #222222;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  z-index: 1;
+}
+
+.p-tag4{
+ color: #fff;
+ font-family: 'Heebo', sans-serif;
+ font-size: 1.9rem;
+ margin-left: 120px;
+ overflow-y: hidden;
+ font-weight: 400;
+}
+
+.head-tag4{
+ color: #fff;
+ font-family: 'Heebo', sans-serif;
+ font-size: 3.4rem;
+ font-weight: 800;
+ overflow-y: hidden;
+ margin-top: 130px;
+ margin-left: 120px;
+}
+
+.feature__details {
+  text-align: center;
+}
+
+.feature__image__container {
+  width: 100%;
+  position: relative;
+}
+.feature__image {
+  width: 100%;
+}
+
+.feature__backgroud__video__container {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  left: 13%;
+  height: 100%;
+  max-width: 73%;
+  max-height: 54%;
+  z-index: -2;
+}
+
+.feature__backgroud__video {
+  width: 100%;
+}
+
+.feature__backgroud__3__video__container {
+  max-width: 63%;
+  max-height: 47%;
+  z-index: -2;
+  top: 9%;
+  left: 19%;
+}
+

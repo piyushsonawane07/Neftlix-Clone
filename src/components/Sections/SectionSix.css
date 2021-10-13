@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;800&display=swap');
+
+.sixth-section{
+    background-color: #000;
+    border-top: 10px solid #222222;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
+.head-tag6 {
+    color: #fff;
+    font-family: 'Heebo', sans-serif;
+    font-size: 3.4rem;
+    font-weight: 800;
+    overflow-y: hidden;
+    margin-top: 130px;
+}
+
+.accordion-item {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 0px;
+    color: #fff;
+    background-color: #303030;
+}
+
+.accordion-button {
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    background-color: #303030;
+    border-radius: 0px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #303030;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-item:first-of-type {
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+
+
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23fff" class="bi bi-plus-lg" viewBox="0 0 16 16"> <path d="M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z"/> </svg>');
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transform: translateY(-50%) rotate(-90deg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23fff" class="bi bi-x-lg" viewBox="0 0 16 16"> <path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/> </svg>');
+    transform: rotate(-180deg);
+}
+
+.accordion {
+    margin-top: 3%;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+.accordion-body {
+    font-size: 1.2rem;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+}

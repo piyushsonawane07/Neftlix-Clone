@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;800&display=swap');
+
+ .feature__2__poster__container {
+    margin-left: 120px;
+     overflow-y: hidden;
+     width: 350px;
+     display: flex;
+     align-items: center;
+     background-color: black;
+     border: 2.5px solid rgba(255, 255, 255, 0.137);
+     border-radius: 10px;
+     height: 80px;
+     gap: 15px;
+   }
+   
+   .poster__container {
+    padding: 15px;
+     width: 25%;
+   }
+   
+   .poster {
+     width: 100%;
+     height: 100%;
+   }
+   
+   .poster__details {
+     width: 60%;
+     
+   }
+   
+   .poster__details > h4 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+     color: #fff;
+     overflow-y: hidden;
+   }
+   
+   .poster__details > h6 {
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+     overflow-y: hidden;
+     color: rgb(63, 63, 246);
+   }
+   
+   .download__gif__container {
+      padding: 15px;
+     width: 25%;
+     height: 100%;
+   }
+   
+   .gif {
+     width: 100%;
+     height: 100%;
+   }
+  
+ 

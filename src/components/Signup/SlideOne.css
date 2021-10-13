@@ -1,0 +1,23 @@
+.slideOne{
+    margin: 0 auto;
+    width: 520px;
+    margin-top: 80px;
+    height: 490px;
+}
+
+.img{
+    width: 70%;
+}
+
+.btn-next{
+    text-align: center;
+    background-color: #E50914;
+    border-radius: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-slide1{
+    padding-left: 75px;
+    padding-right: 75px;
+}
