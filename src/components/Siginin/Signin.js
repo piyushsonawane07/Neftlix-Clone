@@ -3,16 +3,41 @@ import './Signin.css'
 import logo from '../../images/logo.svg';
 import Input from '../Input/Input';
 import Fbic from '../../images/facebook.png'
+import InitializeAuthentication from '../../firebase.init'
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { useHistory } from 'react-router';
 
 export default function Signin() {
+
+    InitializeAuthentication();
+
+    const history = useHistory();
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
 
-    function handleLogin(e) {
+    async function handleLogin(e) {
+        
         e.preventDefault();
+        
         if (email && password) {
-            console.log("login Clicked !");
+
+            const auth = getAuth();
+            
+            signInWithEmailAndPassword(auth, email, password)
+                .then((userCredential) => {
+                    const userId = userCredential.user.uid
+                    console.log(userId);
+                    console.log("Login Succeess !");
+                    history.push({
+                        pathname:"/home",
+                        state:{userId:userId}
+                    });
+                })
+                .catch((error) => {
+                    console.log("Login Failed !");
+                });
+                
         } else {
             alert("Please check Feilds !")
         }

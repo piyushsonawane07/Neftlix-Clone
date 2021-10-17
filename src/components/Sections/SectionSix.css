@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;800&display=swap');
 
-.sixth-section{
+.sixth-section {
     background-color: #000;
     border-top: 10px solid #222222;
     padding-top: 20px;
     padding-bottom: 100px;
-  }
+}
 
 .head-tag6 {
     color: #fff;
@@ -72,4 +72,20 @@
     font-size: 1.2rem;
     font-family: 'Heebo', sans-serif;
     font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    .head-tag6 {
+        color: #fff;
+        font-size: 2.2rem;
+        font-weight: 800;
+        overflow-y: hidden;
+        margin-top: 130px;
+    }
+
+    .accordion {
+        margin-top: 3%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }

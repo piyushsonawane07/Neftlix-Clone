@@ -5,6 +5,10 @@
     height: 46px;
 }
 
-.btn-sin:hover{
+.btn-sin:hover {
     text-decoration: underline;
+}
+
+.action {
+    background-color: #fff;
 }

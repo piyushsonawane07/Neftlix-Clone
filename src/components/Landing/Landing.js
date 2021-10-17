@@ -20,34 +20,34 @@ export default function Home() {
                 background: `linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),url(${homebg}) top left / cover no-repeat`,
                 marginRight: "",
             }}>
-                <Header/>
-                <Text/>
-                <EmailInput/>
+                <Header />
+                <Text />
+                <EmailInput />
 
             </div>
 
             <div className="second-section">
-                <SectionTwo/>
+                <SectionTwo />
             </div>
 
             <div className="third-section">
-               <SectionThree/>
+                <SectionThree />
             </div>
 
             <div className="fourth-section">
-                <SectionFour/>
+                <SectionFour />
             </div>
 
             <div className="fifth-section">
-                <SectionFive/>
+                <SectionFive />
             </div>
 
             <div className="sixth-section">
-                <SectionSix/>
+                <SectionSix />
             </div>
 
             <div className="seven-section">
-               <SectionSeven/>
+                <SectionSeven />
             </div>
 
 

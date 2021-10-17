@@ -1,4 +1,4 @@
-import './App.css';
+import './App.css'
 import Landing from './components/Landing/Landing';
 import {
   BrowserRouter as Router,
@@ -11,6 +11,8 @@ import SlideTwo from './components/Signup/SlideTwo';
 import SlideThree from './components/Signup/SlideThree';
 import SlideFour from './components/Signup/SlideFour';
 import Home from './components/Home/Home';
+import Profile from './components/Profile/Profile';
+import ManageProfile from './components/Home/ManageProfile';
 
 function App() {
   return (
@@ -34,8 +36,14 @@ function App() {
         <Route exact path="/slidefour">
           <SlideFour/>
         </Route>
+        <Route exact path="/userprofile">
+          <Profile/>
+        </Route>
         <Route exact path="/home">
           <Home/>
+        </Route>
+        <Route exact path="/manage-profile">
+          <ManageProfile/>
         </Route>
       </Switch>
     </Router>

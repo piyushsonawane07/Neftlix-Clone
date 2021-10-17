@@ -1,4 +1,4 @@
-.second-section{
+.second-section {
   position: relative;
   background-color: #000;
   border-top: 10px solid #222222;
@@ -48,9 +48,37 @@
   overflow-y: hidden;
   max-width: 73%;
   max-height: 54%;
-  z-index:2;
+  z-index: 2;
 }
 
 .feature__backgroud__video {
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .head-tag2 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+    overflow-y: hidden;
+    margin-top: 47px;
+    margin-left: 56px;
+    margin-right: 56px;
+  }
+
+  .p-tag2 {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  .featuretwo {
+    padding-right: 20px;
+}
+
 }

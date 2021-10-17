@@ -3,12 +3,12 @@ import './Input.css'
 
 export default function Input(props) {
 
-    const { type = 'text', required = true, name, placeholder = '' ,value, setValue} = props
+    const { type = 'text', required = true, name, placeholder = '', value, setValue } = props
 
     return (
         <div className="input">
-         
-            <input 
+
+            <input
                 name={name}
                 required={required}
                 onChange={(e) => setValue(e.target.value)}
@@ -17,7 +17,7 @@ export default function Input(props) {
                 type={type}
                 autoComplete="off"
             />
-        
+
         </div>
     )
 }

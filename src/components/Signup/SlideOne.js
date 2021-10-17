@@ -12,7 +12,7 @@ export default function SlideOne() {
 
     return (
         <>
-            <SignupHeader />
+            <SignupHeader action="Sign in" />
             <div className="slideOne">
                 <div className="text-center">
                     <img className="img" src={img} alt="" />
@@ -23,13 +23,13 @@ export default function SlideOne() {
                     <p className="ms-5 me-5 text-slide1">Netflix is personalised for you. Create a password to watch on any device at any time.</p>
                 </div>
                 <div className="text-center">
-                   <Link to={{
-                       pathname:'/slidetwo',
-                       state:{email:location.state.email}
-                   }} ><button className="btn w-50 btn-next text-light">Next</button></Link>
+                    <Link to={{
+                        pathname: '/slidetwo',
+                        state: { email: location.state.email }
+                    }} ><button className="btn w-50 btn-next text-light">Next</button></Link>
                 </div>
             </div>
-            <SignupFooter/>
+            <SignupFooter />
         </>
     )
 }

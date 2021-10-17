@@ -1,0 +1,62 @@
+.logo__landing {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  width: 174px;
+  height: 46px;
+}
+
+.btn-signin {
+  background-color: #E50914;
+  margin-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 20px;
+}
+
+.btnddropdown {
+  margin-left: 420px;
+  margin-right: 20px;
+  background: transparent;
+}
+
+.btnddropdown:hover {
+  background: transparent;
+}
+
+
+.btnddropdown option {
+  background-color: #000;
+  color: #d6d4d6;
+}
+
+
+
+select {
+  color: #fff;
+  background: transparent;
+  border: none;
+}
+
+@media only screen and (max-width:600px) {
+
+  .logo__landing {
+    margin-bottom: 10px;
+    margin-left: 5px;
+    width: 84px;
+    height: 26px;
+  }
+
+  .btn-signin {
+    background-color: #E50914;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+  }
+
+  .btnddropdown {
+    margin-left: 120px;
+    margin-right: 10px;
+    background: transparent;
+  }
+}

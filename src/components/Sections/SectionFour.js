@@ -14,18 +14,18 @@ export default function SectionFour() {
                 </div>
 
                 <div className="col-md-6">
-                    <div class="feature__image__container ">
+                    <div className="feature__image__container ">
                         <img
                             src={video2cover}
                             alt=""
-                            class="feature__image feature__4__image"
+                            className="feature__image feature__4__image"
                         />
-                        <div class="feature__backgroud__video__container feature__backgroud__3__video__container">
+                        <div className="feature__backgroud__video__container feature__backgroud__3__video__container">
                             <video
                                 autoPlay
                                 loop
                                 muted
-                                class="feature__backgroud__video feature__4__backgroud__video"
+                                className="feature__backgroud__video feature__4__backgroud__video"
                             >
                                 <source
                                     src={video2}

@@ -1,5 +1,4 @@
-
-.seven-section{
+.seven-section {
   background-color: #000;
   border-top: 10px solid #222222;
   padding-top: 20px;
@@ -10,7 +9,8 @@
   margin-left: 22%;
 }
 
-.container h4, p {
+.container h4,
+p {
   overflow-y: hidden;
   color: #6A686A;
 }
@@ -36,4 +36,11 @@
 
 .btnlang:hover {
   background: transparent;
+}
+
+@media only screen and (max-width:600px) {
+   .nav-item a {
+    color: #6A686A;
+    font-size: 12px;
+  }
 }

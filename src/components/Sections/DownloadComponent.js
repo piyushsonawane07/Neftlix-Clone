@@ -6,23 +6,23 @@ import boxShot from '../../images/boxshot.png'
 export default function DownloadComponent() {
   return (
     <>
-      <div class="feature__2__poster__container">
-        <div class="poster__container">
+      <div className="feature__2__poster__container">
+        <div className="poster__container">
           <img
             src={boxShot}
             alt=""
-            class="poster"
+            className="poster"
           />
         </div>
-        <div class="poster__details">
+        <div className="poster__details">
           <h4>Stranger Things</h4>
           <h6>Downloading...</h6>
         </div>
-        <div class="download__gif__container">
+        <div className="download__gif__container">
           <img
             src={gifDownload}
             alt=""
-            class="gif"
+            className="gif"
           />
         </div>
       </div>

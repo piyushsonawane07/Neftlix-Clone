@@ -9,17 +9,17 @@ export default function SectionThree() {
     return (
         <>
             <div className="row">
-            
-                <div className="col-md-6 ">
-                    <div class="feature__image__container">
-                        <img src={imgsection3} alt="" class="feature__3__image" />
+
+                <div className="col-md-6 col-sm-12">
+                    <div className="feature__image__container">
+                        <img src={imgsection3} alt="" className="feature__3__image" />
 
                         <DownloadComponent />
 
                     </div>
                 </div>
 
-                <div className="col-md-6">
+                <div className="col-md-6 col-sm-12">
                     <h1 className="head-tag3">Download your shows to watch offline.</h1>
                     <p className="p-tag3">Save your favourites easily and always have something to watch.</p>
                 </div>

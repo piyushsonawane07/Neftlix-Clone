@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../../images/logo.svg';
-import '../Landing/Landing.css';
+import './Header.css'
 import { Link } from 'react-router-dom';
 
 export default function Header() {
@@ -8,21 +8,21 @@ export default function Header() {
         <>
             <div className="row d-flex pt-4 ps-5 ">
 
-                <div className="col-md-6 col-sm-12">
-                    <img className="logo" src={logo} alt="" />
+                <div className="col-md-6 col-sm-6">
+                    <img className="logo__landing" src={logo} alt="" />
                 </div>
 
-                <div className="col-md-6 col-sm-12">
-                    <button class="btn btn-secondary btnddropdown" type="button" >
-                    <i class="fas fa-globe me-1 fa-xs mt-2"></i>
-                    <select>
-                        <option value="English">English</option>
-                        <option value="Hindi">हिंदी</option>
-                    </select>
+                <div className="col-md-6 col-sm-6">
+                    <button className="btn btn-secondary btnddropdown" type="button" >
+                        <i className="fas fa-globe me-1 fa-xs mt-2"></i>
+                        <select>
+                            <option value="English">English</option>
+                            <option value="Hindi">हिंदी</option>
+                        </select>
                     </button>
                     <Link to="/signin"><button className="btn btn-danger btn-signin">Sign in</button></Link>
                 </div>
-                
+
             </div>
         </>
     )

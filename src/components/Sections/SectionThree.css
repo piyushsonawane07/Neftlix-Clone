@@ -1,4 +1,4 @@
-.third-section{
+.third-section {
   background-color: #000;
   border-top: 10px solid #222222;
   padding-top: 100px;
@@ -32,4 +32,51 @@
 .feature__3__image {
   width: 75%;
   margin-left: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .head-tag3 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 800;
+    overflow-y: hidden;
+    text-align: center;
+    margin-top: 47px;
+    margin-left: 56px;
+    margin-right: 56px;
+  }
+
+  .p-tag3 {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  .featurethree {
+    padding-right: 20px;
+  }
+
+  .feature__3__image {
+    width: 88%;
+    margin-left: 25px;
+    align-items: center;
+  }
+
+  .feature__2__poster__container {
+    margin-left: 45px;
+    overflow-y: hidden;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border: 2.5px solid rgba(255, 255, 255, 0.137);
+    border-radius: 10px;
+    height: 80px;
+    grid-gap: 15px;
+    gap: 15px;
+}
 }

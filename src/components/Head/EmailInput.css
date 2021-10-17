@@ -1,29 +1,66 @@
-.email{
-    width: 1000px;
-    margin: auto;
-    padding-bottom: 10px;
-  }
-  .email input{
-    height: 65px;
-    width: 560px;
-    padding: 25px;
-    font-size: 20px;
-    outline: none;
-  }
-  
-   .btn-getStarted{
+.email {
+  width: 1000px;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+.email input {
+  height: 65px;
+  width: 560px;
+  padding: 25px;
+  font-size: 20px;
+  outline: none;
+}
+
+.btn-getStarted {
+  border-radius: 0;
+  line-height: 0;
+  background-color: #E50914;
+  font-size: 1.8rem;
+  padding: 18px;
+}
+
+.email-validation {
+  color: #FFA00A;
+  margin-left: 375px;
+}
+
+.validate {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-getStarted {
     border-radius: 0;
     line-height: 0;
     background-color: #E50914;
-    font-size: 1.8rem;
-    padding: 18px;
-   }
+    font-size: 1.5rem;
+    padding: 12px;
+    margin-top: 10px;
+  }
 
-   .email-validation{
-     color: #FFA00A;
-     margin-left: 375px;
-   }
+  .email {
+    width: 356px;
+    margin: auto;
+    padding-bottom: 6px;
+  }
 
-   .validate{
-     display: none;
-   }
+
+  .email input {
+    height: 65px;
+    font-size: 18px;
+    outline: none;
+  }
+
+  .email-validation {
+    color: #FFA00A;
+    font-size: 14px;
+    margin-left:129px;
+  }
+  
+  .validate {
+    display: none;
+  }
+  
+
+}

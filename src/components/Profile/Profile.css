@@ -1,0 +1,29 @@
+.profile{
+    min-height: 100vh;
+    background-color: #141414
+}
+
+.logocontainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.logo {
+    width: 174px;
+    height: 46px;
+}
+.profile-container{
+    margin: 0 auto;
+    width: 550px;
+    height: 790px;
+}
+
+
+.username-validation{
+    color: #fafafa;
+  } 
+  
+  .usernamevalidate{
+    display: none;
+  }

@@ -40,7 +40,7 @@ export default function SignupFooter() {
                         <button className="btn btn-secondary mt-4 btnlang" type="button" >
                             <i className="fas fa-globe me-1 fa-xs mt-2 text-dark"></i>
                             <select className="text-dark">
-                                <option  value="English">English</option>
+                                <option value="English">English</option>
                                 <option value="Hindi">हिंदी</option>
                             </select>
                         </button>

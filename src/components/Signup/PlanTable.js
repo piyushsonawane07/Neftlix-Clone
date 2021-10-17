@@ -1,10 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import './PlanTable.css';
-
+import { useHistory } from 'react-router-dom'
 
 const Plantable = (props) => {
-    const { active, setActive } = props
+
+    const {userId, active, setActive } = props
+    console.log(userId);
+    const history = useHistory();
+
+
+    function handleClick(e) {   
+        e.preventDefault();
+        history.push({
+            pathname:"/userprofile",
+            state:{userId:userId}
+        })
+    }
 
     const data = [
         {
@@ -137,7 +148,7 @@ const Plantable = (props) => {
                         Only people who live with you may use your account. Watch on 4 different devices at the same time with Premium, 2 with Standard, and 1 with Basic and Mobile.
                     </div>
             <div className="text-center mt-5">
-                <Link to="/home"><button className="btn w-50 btn-next text-light" >Register</button></Link>
+                <button onClick={handleClick} className="btn w-50 btn-next text-light" >Register</button>
             </div>
         </div >
     )
