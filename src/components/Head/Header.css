@@ -14,7 +14,7 @@
 }
 
 .btnddropdown {
-  margin-left: 420px;
+  margin-left: 920px;
   margin-right: 20px;
   background: transparent;
 }
@@ -41,22 +41,40 @@ select {
 
   .logo__landing {
     margin-bottom: 10px;
-    margin-left: 5px;
-    width: 84px;
+    width: 94px;
+    margin-right: 10px;
     height: 26px;
   }
 
   .btn-signin {
     background-color: #E50914;
     margin-top: 10px;
+    font-size: 15px;
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom: 10px;
   }
 
   .btnddropdown {
-    margin-left: 120px;
-    margin-right: 10px;
+    margin-left: 25px;
+    margin-right: 5px;
     background: transparent;
   }
+
+  select {
+    font-size: 12px;
+    color: #fff;
+    background: transparent;
+    border: none;
+  }
+  
+
+  .btnddropdown option {
+    font-size: 10px;
+    background-color: #000;
+    color: #d6d4d6;
+  }
+  
+
 }
+

@@ -9,3 +9,12 @@
     padding: 1px;
     margin: 1px;
 }
+
+@media only screen and (max-width: 600px) {
+    .slideFour {
+        width: 332px;
+        margin: 32px auto 0;
+        height: 590px;
+    }
+    
+}

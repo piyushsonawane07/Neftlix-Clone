@@ -30,37 +30,40 @@
 }
 
 @media only screen and (max-width: 600px) {
+
   .btn-getStarted {
     border-radius: 0;
     line-height: 0;
     background-color: #E50914;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 12px;
-    margin-top: 10px;
+    margin-top: 15px;
   }
 
   .email {
-    width: 356px;
+    width: 300px;
     margin: auto;
-    padding-bottom: 6px;
+    padding-bottom: 2px;
   }
 
 
   .email input {
-    height: 65px;
-    font-size: 18px;
+    height: 40px;
+    padding: 16px;
+    font-size: 16px;
     outline: none;
   }
 
   .email-validation {
     color: #FFA00A;
-    font-size: 14px;
-    margin-left:129px;
+    font-size: 10px;
+    margin-left:118px;
   }
   
   .validate {
     display: none;
   }
-  
 
 }
+
+

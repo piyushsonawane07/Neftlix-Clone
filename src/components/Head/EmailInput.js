@@ -38,7 +38,7 @@ export default function EmailInput() {
                 <input onFocus={handleFocus} autoComplete="off" type="email" name="email" placeholder="Email Address" value={email} onChange={handleChange} required />
                 <button onClick={handleClick} className="btn btn-getStarted text-light">Get Started <i className="bi bi-chevron-right fa-sm"> </i> </button>
             </div>
-            <p id="email__check" className="email-validation validate"><span className="fs-5">Email is required.</span></p>
+            <p id="email__check" className="email-validation validate"><span className="alert__email">Email is required.</span></p>
         </>
     )
 }

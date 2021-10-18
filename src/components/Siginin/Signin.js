@@ -48,7 +48,7 @@ export default function Signin() {
         <>
 
             <div className="signin__background">
-                <img className="logo mt-4 ms-5" src={logo} alt="" />
+                <img className="logo__signin mt-4 ms-5" src={logo} alt="" />
 
                 <div className="signin__window">
                     <p className="fs-2 text-light fw-bold">Sign in</p>

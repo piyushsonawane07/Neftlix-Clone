@@ -62,3 +62,13 @@ input:focus {
 .passvalidate {
   display: none;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .slideTwo {
+    width: 332px;
+    margin: 32px auto 0;
+    height: 470px;
+  }
+
+}

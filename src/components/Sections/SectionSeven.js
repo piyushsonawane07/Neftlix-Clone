@@ -60,7 +60,7 @@ export default function SectionSeven() {
                         </ul>
                     </div>
                     <div className="">
-                        <h5 className="text-light">Made by <span className="text-danger fs-5"> Piyush Sonawane</span> 👋</h5>
+                        <h5 className="text-light p-1">Made by <span className="text-danger fs-5"> Piyush Sonawane</span> 👋</h5>
                     </div>
                 </footer>
             </div>

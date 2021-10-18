@@ -14,8 +14,10 @@ export default function SectionThree() {
                     <div className="feature__image__container">
                         <img src={imgsection3} alt="" className="feature__3__image" />
 
-                        <DownloadComponent />
-
+                        <div className="downloadComponent">
+                            <DownloadComponent />
+                        </div>
+                        
                     </div>
                 </div>
 

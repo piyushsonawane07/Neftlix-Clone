@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;800&display=swap');
-
 .sixth-section {
     background-color: #000;
     border-top: 10px solid #222222;
@@ -75,9 +73,10 @@
 }
 
 @media only screen and (max-width: 600px) {
+
     .head-tag6 {
         color: #fff;
-        font-size: 2.2rem;
+        font-size: 1.8rem;
         font-weight: 800;
         overflow-y: hidden;
         margin-top: 130px;
@@ -88,4 +87,12 @@
         margin-left: 10px;
         margin-right: 10px;
     }
+
+    .accordion button{
+        font-size: 20px;
+    }
+
 }
+
+
+

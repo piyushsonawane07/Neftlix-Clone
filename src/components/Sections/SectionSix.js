@@ -90,7 +90,7 @@ export default function SectionSix() {
 
             </div>
 
-            <p className="fs-5 text-center text-light mt-5">Ready to watch? Enter your email to create or restart your membership.</p>
+            <p className="fs-6 text-center text-light mt-5">Ready to watch? Enter your email to create or restart your membership.</p>
             
             <EmailInput />
 

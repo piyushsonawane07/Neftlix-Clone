@@ -7,6 +7,11 @@
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.65)), url('https://i.imgur.com/EnygUsO.jpeg');
 }
 
+.logo__signin {
+    width: 164px;
+    height: 39px;
+}
+
 .signin__window {
     max-width: 450px;
     min-height: 660px;
@@ -72,3 +77,34 @@ h6 {
     color: #B3B3B3;
     text-decoration: underline;
 }
+
+
+@media only screen and (max-width: 600px) {
+  
+    .signin__window {
+        max-width: 319px;
+        min-height: 600px;
+        margin: 30px auto;
+        padding: 34px 14px 43px;
+        flex-direction: column;
+        background-color: #000000b0;
+    }
+
+    .input {
+        color: #fff;
+        border: 2px solid #333333;
+        background-color: #333333;
+        padding: 10px;
+        margin: 20px auto;
+        width: 90%;
+        border-radius: 5px;
+        background-color: #333333;
+    }
+
+    .logo__signin {
+        width: 112px;
+        height: 29px;
+    }
+    
+  }
+

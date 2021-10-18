@@ -88,3 +88,31 @@
 .btn-next {
   border-radius: 0px;
 }
+
+@media only screen and (max-width: 600px) {
+
+  .plantablebox .box {
+    min-width: 65px;
+    max-width: 120px;
+    height: 70px;
+    padding: 2px;
+    display: flex;
+    background-color: #e50914;
+    opacity: 0.6;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.plantable {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 5px;
+  gap: 8px;
+}
+
+  
+}

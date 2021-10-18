@@ -1,4 +1,4 @@
-.logo {
+.logo__signup {
     margin-bottom: 20px;
     margin-left: 10px;
     width: 174px;
@@ -11,4 +11,13 @@
 
 .action {
     background-color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo__signup {
+        margin-bottom: 20px;
+        margin-left: 10px;
+        width: 154px;
+        height: 36px;
+    }
 }

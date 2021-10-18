@@ -21,3 +21,17 @@
     padding-left: 75px;
     padding-right: 75px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    text-slide1 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .slideOne {
+        width: 383px;
+        margin: 71px auto 0;
+        height: 380px;
+    }
+}
