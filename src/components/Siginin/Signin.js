@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Signin.css'
 import logo from '../../images/logo.svg';
 import Input from '../Input/Input';
+import $ from 'jquery'
 import Fbic from '../../images/facebook.png'
 import InitializeAuthentication from '../../firebase.init'
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
@@ -35,11 +36,11 @@ export default function Signin() {
                     });
                 })
                 .catch((error) => {
-                    console.log("Login Failed !");
+                   $("#inputval").removeClass("inputvalidate")
                 });
                 
         } else {
-            alert("Please check Feilds !")
+            $("#inputval").removeClass("inputvalidate")
         }
     }
 
@@ -52,7 +53,7 @@ export default function Signin() {
 
                 <div className="signin__window">
                     <p className="fs-2 text-light fw-bold">Sign in</p>
-
+                    <p id="inputval" className="input-validation inputvalidate mt-4 text-center"><span className="fs-6">Please check your credentials.</span></p>
                     <div>
                         <Input type="email" value={email} setValue={setEmail} name="loginEmail" placeholder='Email or phone number' required={true} />
                         <Input type="password" name="loginPass" value={password} setValue={setPassword} placeholder='Password' required={true} />

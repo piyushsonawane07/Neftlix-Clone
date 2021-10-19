@@ -12,7 +12,16 @@
 
 .profile__img{
     padding: 1px;
-    border-radius: 5px;
 }
 
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.right-nav{
+    margin-left: 90px;
+}
   

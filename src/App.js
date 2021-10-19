@@ -13,6 +13,7 @@ import SlideFour from './components/Signup/SlideFour';
 import Home from './components/Home/Home';
 import Profile from './components/Profile/Profile';
 import ManageProfile from './components/Home/ManageProfile';
+import PlayVideo from './components/Home/PlayVideo';
 
 function App() {
   return (
@@ -44,6 +45,9 @@ function App() {
         </Route>
         <Route exact path="/manage-profile">
           <ManageProfile/>
+        </Route>
+        <Route exact path="/play-video">
+          <PlayVideo/>
         </Route>
       </Switch>
     </Router>

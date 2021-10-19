@@ -37,7 +37,7 @@ export default function Profile() {
     }
 
 
-    async function handleClick(e) {
+    function handleClick(e) {
         e.preventDefault();
         if (userName) {
             const db = getDatabase();

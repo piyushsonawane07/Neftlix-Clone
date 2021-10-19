@@ -18,7 +18,7 @@ export default function Home() {
         <>
             <div className="first-section" style={{
                 background: `linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.75)),url(${homebg}) top left / cover no-repeat`,
-                marginRight: "",
+                marginRight: ""
             }}>
                 <Header />
                 <Text />
